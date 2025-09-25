@@ -15,20 +15,24 @@
 
     </header>
 
-    <div class="conteudoimagem"></div>
+    <form action="submit_inscricao" method="post">
+        <div class="inscricao">
+            <h1>Inscrição</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
 
-    <div class="cards">
-        <A href="historia.html"><div class="card"><H2>Historia</H2></div></A>
-        <A href="idolos.html"><div class="card"><H2>Idolos</H2></div></A>
-        <A href="elenco.html"><div class="card"><H2>Elenco</H2></div></A>
-        <A href="titulos.html"><div class="card"><H2>Titulos</H2></div></A>
-        <A href="classicos.html"><div class="card"><H2>Classicos</H2></div></A>
-        <A href="torcida.html"><div class="card"><H2>Torcida</H2></div></A>
-        <A href="uniformes.html"><div class="card"><H2>Uniformes</H2></div></A>
-        <A href="diretoria.html"><div class="card"><H2>Diretoria</H2></div></A>
-    </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
 
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br><br>
+
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
 
     <footer class="rodape">
         Nome: Arthur Felipe Alves - Matricula: 5159091
