@@ -28,7 +28,7 @@ header{
 .conteudoimagem{
     width: 100%;
     height: 50vh;
-    background-image: url("./assets/wp3650989.jpg");
+    background-image: url("./assets/milan.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,4 +60,23 @@ header{
 a{
     text-decoration: none;
     color: black;
+}
+
+.historia{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.idolos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.idolos ol{
+    align-items: center;
+    text-align: center;
+    object-fit: cover; /* Garante que a imagem preencha o card */
 }
